@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 
 
-
+// the square component
 class Square extends React.Component{
   render(){
     return(
@@ -14,6 +14,8 @@ class Square extends React.Component{
   }
 }
 
+
+// Board component
 
 class Board extends React.Component{
   renderSquare(i){
@@ -48,6 +50,7 @@ class Board extends React.Component{
   }
 }
 
+// game component
 class Game extends React.Component{
   render(){
     return(
